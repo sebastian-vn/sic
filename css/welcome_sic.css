@@ -2,9 +2,6 @@
 
 /* Titulo */
 
-body{
-  background-image: url(/img/fondo.jpg)
-}
 
 h1 {
   font-family: 'Titillium Web', sans-serif;
@@ -12,6 +9,7 @@ h1 {
   position: static;
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* Video de fondo*/
@@ -25,7 +23,13 @@ h1 {
 
 /* Add some content at the bottom of the video/page */
 
+
+
 .content {
+  /* Set background image */
+  /* background-image: url("/pruebagit/img/fondo.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important; */
   position: fixed;
   bottom: 0;
   top: 0;

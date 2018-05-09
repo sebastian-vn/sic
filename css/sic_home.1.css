@@ -1,0 +1,36 @@
+main.content{
+  
+}
+
+a.brand-logo {
+  padding-left: 1%;
+}
+
+#logo-um {
+  margin-top: 2px;
+  width: 90%;
+  height: 2em;
+}
+
+
+.nav-wrapper {
+  background-color: rgb(76, 175, 80);
+}
+
+.page-footer {
+  background-color: rgb(76, 175, 80);
+}
+
+footer img{
+  width: 200px; 
+  margin-left: 30em;
+}
+
+
+/* Ajuste del logo */
+
+@media only screen and (max-width: 1200px) {
+  a.brand-logo {
+    padding-left: 0%;
+  }
+}

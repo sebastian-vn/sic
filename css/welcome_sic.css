@@ -1,0 +1,90 @@
+/* Posicion vertical de los botones en el inicio de la pagina */
+
+/* Titulo */
+
+body{
+  background-image: url(/img/fondo.jpg)
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3em;
+  position: static;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Video de fondo*/
+
+#myVideo {
+  position: fixed;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Ajustes de los cards en el home*/
+
+div.card {
+  text-align: center;
+  background-color: rgb(76, 175, 80, 0.5);
+}
+
+div#nivel7.card {
+  margin-left: 35%;
+}
+
+div#nivel8.card {
+  margin-right: 35%;
+}
+
+div.content {
+  overflow-y: auto;
+}
+
+div.card-action {
+  text-align: center;
+  background-color: black !important;
+}
+
+div.card-action span {
+  color: white !important;
+}
+
+div.card:hover {
+  background-color: white;
+}
+
+/* Ajustes de los botones hasta resoluciones de 1000px  */
+
+@media only screen and (max-width: 1000px) {
+  .row {
+    transform: translateY(0%);
+  }
+  div#nivel7.card {
+    margin-left: 0%;
+  }
+  div#nivel8.card {
+    margin-right: 0%;
+  }
+  /* h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 8em;
+    position: static;
+    text-align: center;
+    text-transform: uppercase;
+    content: "Hello" !important;
+  } */
+}

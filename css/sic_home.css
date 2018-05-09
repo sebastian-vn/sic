@@ -1,0 +1,120 @@
+/* Footer fixed */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 5em;
+  flex: 1 0 auto;
+}
+
+a.brand-logo {
+  padding-left: 1%;
+}
+
+#logo-um {
+  margin-top: 2px;
+  width: 90%;
+  height: 2em;
+}
+
+a.breadcrumb {
+  padding-left: 1%;
+}
+
+a.collection-item {
+  color: black !important;
+}
+
+.nav-wrapper {
+  background-color: rgb(76, 175, 80);
+}
+
+.page-footer {
+  background-color: rgb(76, 175, 80);
+}
+
+/* COLLECTION */
+
+.collection a.collection-item:not(.active):hover {
+  background-color: rgb(76, 175, 80);
+}
+
+/* COLLECTION - COLLAPSIBLE */
+
+.collapsible-collection {
+  margin-top: 0;
+}
+
+.collection .collection-item.active {
+  background-color: rgb(76, 175, 80);
+  color: #eafaf9;
+}
+
+div.collapsible-header:hover {
+  background-color: rgb(76, 175, 80);
+}
+
+div.collection-item {
+  transition: .25s;
+}
+
+.collapsible {
+  border-top: 0px solid #ddd;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  margin: 0.01rem 0rem;
+}
+
+#subnivel2 a.collection-item {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* TABS */
+
+.tabs .tab a {
+  color: rgb(0, 0, 0);
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 24px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: color .28s ease;
+  transition: color .28s ease;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  background-color: transparent;
+  color: rgb(5, 87, 5);
+  font-weight: bolder;
+}
+
+li.indicator {
+  background-color: rgb(5, 87, 5) !important;
+}
+
+i.navbar.material-icons.tooltipped {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+footer img{
+  width: 300px; 
+  margin-left: 30em;
+}
+
+
+/* Ajuste del logo */
+
+@media only screen and (max-width: 1200px) {
+  a.brand-logo {
+    padding-left: 0%;
+  }
+}

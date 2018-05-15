@@ -1,5 +1,67 @@
-main.content{
-  
+#side-nav {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+#content-viewer {
+  margin-top: 1em;    
+  display: flex;
+  background-color: rgb(144, 148, 144);
+  justify-content: center;
+}
+
+#breadcrumb{
+  margin-left: 0.8%;
+}
+
+video {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* HOME AND SALIR */
+i.navbar.material-icons.tooltipped {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.divider{
+  background-color: black;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a.collection-item {
+  color: green !important;
+  font-weight: 900;
+}
+
+div.collapsible-header {
+  color: green;
+  font-weight: 900;
+}
+
+.tabs a {
+  color: grey;
+}
+
+.tabs a:hover {
+  color: black;
+}
+
+/* .indicator{
+  height: 5px !important;
+  width: 2em;
+} */
+
+li.indicator {
+  background-color: rgb(50, 214, 55) !important;
+  /* height: 4px !important; */
 }
 
 a.brand-logo {
@@ -12,7 +74,6 @@ a.brand-logo {
   height: 2em;
 }
 
-
 .nav-wrapper {
   background-color: rgb(76, 175, 80);
 }
@@ -21,11 +82,41 @@ a.brand-logo {
   background-color: rgb(76, 175, 80);
 }
 
-footer img{
-  width: 200px; 
+footer img {
+  width: 200px;
   margin-left: 30em;
 }
 
+/* COLLECTION - COLLAPSIBLE */
+
+.collapsible-collection {
+  margin-top: 0;
+}
+
+.collection .collection-item.active {
+  background-color: rgb(76, 175, 80);
+  color: #eafaf9;
+}
+
+div.collapsible-header:hover {
+  background-color: #ddd;
+}
+
+div.collection-item {
+  transition: .25s;
+}
+
+.collapsible {
+  border-top: 0px solid #ddd;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  margin: 0.01rem 0rem;
+}
+
+#subnivel2 a.collection-item {
+  font-style: italic;
+  font-weight: 700;
+}
 
 /* Ajuste del logo */
 

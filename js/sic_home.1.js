@@ -6,8 +6,14 @@ $(document).ready(function () {
 
 
   /* OCULTAR LOS DIVS DEL SIDE-NAV */
-  for(var i=1; i < 9; i++){
-    $("#nivel"+i).hide();
+  for (var i = 2; i < 9; i++) {
+    $("#nivel" + i).hide();
   }
-  
+
+  $('#pdf1').on('click', function () {
+    $('#content-viewer')
+      .empty()
+      .html('<embed src="pdf/4-Cuidado-Territorios_sostenibles.pdf" width="100%" height="1000px" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">')
+  });
+
 });

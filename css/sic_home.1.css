@@ -4,14 +4,15 @@
   flex-direction: column;
 }
 
+
 #content-viewer {
-  margin-top: 1em;    
+  margin-top: 10em;
   display: flex;
   background-color: rgb(144, 148, 144);
   justify-content: center;
 }
 
-#breadcrumb{
+#breadcrumb {
   margin-left: 0.8%;
 }
 
@@ -20,14 +21,14 @@ video {
   margin-bottom: 10px;
 }
 
-
 /* HOME AND SALIR */
+
 i.navbar.material-icons.tooltipped {
   font-size: 45px;
   line-height: 60px;
 }
 
-.divider{
+.divider {
   background-color: black;
 }
 

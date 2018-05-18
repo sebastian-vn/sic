@@ -18,9 +18,11 @@
   margin-left: 0.8%;
 }
 
-video {
-  margin-top: 10px;
-  margin-bottom: 10px;
+/* PDF */
+
+embed{
+  width: 90%;
+  height: 750px;
 }
 
 /* HOME AND SALIR */
@@ -78,7 +80,6 @@ a.brand-logo {
 
 #logo-um {
   margin-top: 2px;
-  width: 90%;
   height: 2em;
 }
 
